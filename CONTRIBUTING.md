@@ -52,7 +52,7 @@ If you have managed to patch a bug you've discovered or reported in the issues l
 Do **not** submit a pull request for cosmetic or code formatting changes, instead, create a new issue.
 
 #### Proposing changes to the documentation
-Our documentaton uses a different [repository](https://github.com/va1kio/commander-site). Before submitting a pull request, check whether your changes will not cause any sort of errors. We uses VuePress for documentation.
+Our documentaton uses a different [repository](https://github.com/7kayoh/commander-site). Before submitting a pull request, check whether your changes will not cause any sort of errors. We uses VuePress for documentation.
 
 #### Something else
 If none of your contribution falls under this document, please create an issue first.
