@@ -2,9 +2,9 @@ local API = {}
 
 local CollectionService = game:GetService("CollectionService")
 
-local Cache = require(script.Parent.Cache)
+local function initializePlayer(player)
 
-local playerRankData = Cache.new()
+end
 
 function API.checkUserAdmin(player)
     if CollectionService:HasTag(player, "Commander_Admin") then
