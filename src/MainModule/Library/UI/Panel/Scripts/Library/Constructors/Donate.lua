@@ -1,9 +1,9 @@
 local module, Elements, Latte, Page = {}, nil, nil, nil
 local Items = {
-	{Value = "50", Id = 6502090560},
-	{Value = "150", Id = 6502091736},
-	{Value = "300", Id = 6502092150},
-	{Value = "1000", Id = 6502104947}
+	{Value = "50", Id = 1193056089},
+	{Value = "100", Id = 1193056146},
+	{Value = "250", Id = 1193056230},
+	{Value = "500", Id = 1193056271}
 }
 
 module.prepare = function()
@@ -40,7 +40,7 @@ module.prepare = function()
 	local Icon = Instance.new("ImageLabel")
 	Icon.AnchorPoint = Vector2.new(0.5, 0.5)
 	Icon.BackgroundTransparency = 1
-	Icon.Image = "rbxassetid://6027381584"
+	Icon.Image = "rbxassetid://7098240930"
 	Icon.Name = "Icon"
 	Icon.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Icon.ScaleType = Enum.ScaleType.Fit
@@ -60,7 +60,7 @@ module.prepare = function()
 	Title.LayoutOrder = 1
 	Title.Name = "Title"
 	Title.Size = UDim2.new(1, 0, 0, 18)
-	Title.Text = "Donation, please!"
+	Title.Text = "Donations go towards the game's ads."
 	Title.TextColor3 = Latte.Modules.Stylesheet.Donate.TitleColor
 	Title.TextSize = 16
 	Title.TextWrapped = true
@@ -73,7 +73,7 @@ module.prepare = function()
 	Subtitle.LayoutOrder = 2
 	Subtitle.Name = "Subtitle"
 	Subtitle.Size = UDim2.new(0.9, 0, 0, 32)
-	Subtitle.Text = "While Commander is a free and open-source project, donations are what keeping us to work on this awesome thing."
+	Subtitle.Text = "Dollhouse Roleplay V2"
 	Subtitle.TextColor3 = Latte.Modules.Stylesheet.Donate.ParagraphColor
 	Subtitle.TextSize = 14
 	Subtitle.TextWrapped = true
